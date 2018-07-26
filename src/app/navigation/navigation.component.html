@@ -1,0 +1,31 @@
+ <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li>
+                                <a routerLink="/Home" (click)= "getActiveTabs('home')" [class.active] = "activeTab === 'home'" >Home</a>
+                            </li>
+                            <li>
+                                <a routerLink="/About" (click)= "getActiveTabs('about')" [class.active] = "activeTab === 'about'" >About</a>
+                            </li>
+                            <li>
+                                <a routerLink="/Gallery" (click)= "getActiveTabs('gallery')" [class.active] = "activeTab === 'gallery'" >Gallery</a>
+                            </li>
+                            <li>
+                                <a routerLink="/Services" (click)= "getActiveTabs('services')" [class.active] = "activeTab === 'services'" >Services</a>
+                            </li>
+                            <li>
+                                <a routerLink="/Testimonials" (click)= "getActiveTabs('testimonials')" [class.active] = "activeTab === 'testimonials'" >Testimonials</a>
+                            </li>
+                            <li>
+                                <a routerLink="/Clients" (click)= "getActiveTabs('clients')" [class.active] = "activeTab === 'clients'" >Clients</a>
+                            </li>
+                            <li>
+                                <a routerLink="/Pricing" (click)= "getActiveTabs('pricing')" [class.active] = "activeTab === 'pricing'">Pricing</a>
+                            </li>
+                            <li>
+                                <a routerLink="/Blog" (click)= "getActiveTabs('blog')" [class.active] = "activeTab === 'blog'">Blog</a>
+                            </li>
+                            
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->

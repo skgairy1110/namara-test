@@ -1,0 +1,43 @@
+        <!--Content Section-->
+        <div id="services" class="scrollto clearfix">
+
+            <div class="row no-padding-bottom clearfix">
+
+
+                <!--Content Left Side-->
+                <div class="col-3">
+                    <!--User Testimonial-->
+                    <blockquote class="testimonial text-right bigtest">
+                        <q>{{services.comments}}</q>
+                        <footer>— {{services.username}}, {{services.company}}</footer>
+                    </blockquote>
+                    <!-- End of Testimonial-->
+
+                </div>
+                <!--End Content Left Side-->
+
+                <!--Content of the Right Side-->
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>{{services.tagline}}</h3>
+                        <h2 class="section-title">{{services.title}}</h2>
+                        <p class="section-subtitle">{{services.description}}</p>
+                    </div>
+                    <p>{{services.text1}}</p>
+                    <p>{{services.text2}}</p>
+                    <!-- Just replace the Video ID "UYJ5IjBRlW8" with the ID of your video on YouTube (Found within the URL) -->
+                    <a href="#" data-videoid="euPHXwocgx4" data-videosite="youtube" class="button video link-lightbox">
+                        {{services.ctatext | uppercase}} <i class="fa fa-{{services.ctaicon}}" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!--End Content Right Side-->
+
+                <div class="col-3">
+                    <img src="assets/images/{{services.bgimage}}" alt="Dancer"/>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--End of Content Section-->
